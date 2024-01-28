@@ -8,3 +8,12 @@ node_modules
 !.env.example
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# This is the folder factory uses to output
+static/assets
+
+static/favicon.ico
+static/icons
+static/manifest.json
+
+.netlify
