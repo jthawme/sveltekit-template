@@ -31,7 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"jt-factory": "^0.1.0",
+		"jt-factory": "^0.1.29",
 		"normalize.css": "^8.0.1",
 		"sass": "^1.70.0",
 		"sharp": "^0.33.2"
