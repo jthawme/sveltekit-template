@@ -1,5 +1,12 @@
 @import 'normalize.css/normalize';
 
+// @font-face {
+// 	font-family: 'GT Haptik';
+// 	font-weight: 500;
+// 	font-display: swap;
+// 	src: url('/fonts/GT-Haptik-Medium.woff2') format('woff2');
+// }
+
 *,
 *:before,
 *:after {
@@ -7,23 +14,69 @@
 }
 
 :root {
-	--font-family-serif: serif;
-	--font-family-sans-serif: sans-serif;
+	--font-family-body: serif;
 
-	--font-size-xx-small: 6px;
-	--font-size-x-small: 10px;
 	--font-size-small: 10px;
 	--font-size-normal: 16px;
 	--font-size-medium: 18px;
 	--font-size-large: 24px;
+	--font-size-xx-large: 40px;
+
+	--font-weight-body: 500;
+
+	--color-text: #000;
+	--color-bg: #fff;
 }
 
 html,
 body {
-	line-height: 1.4;
-	font-family: sans-serif;
+	line-height: 1.2;
+
+	font-size: var(--font-size-normal);
+	font-family: var(--font-family-body);
+
+	color: var(--color-text);
+	background-color: var(--color-bg);
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 img {
 	max-width: 100%;
+}
+
+.btn-reset {
+	appearance: none;
+
+	padding: 0;
+	margin: 0;
+
+	border: none;
+
+	cursor: pointer;
+
+	background-color: transparent;
+
+	outline: none;
+}
+
+input,
+select,
+button {
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+}
+
+a.std,
+button.std {
+	transition: {
+		duration: 0.15s;
+		property: opacity;
+	}
+
+	@include hover {
+		opacity: 0.5;
+	}
 }
