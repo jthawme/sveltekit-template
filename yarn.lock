@@ -1492,9 +1492,9 @@ json-stable-stringify-without-jsonify@^1.0.1:
   integrity sha512-Bdboy+l7tA3OGW6FjyFHWkP5LuByj1Tk33Ljyq0axyzdk9//JSi2u3fP1QSmd1KNwq6VOKYGlAu87CisVir6Pw==
 
 jthawme-utils@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/jthawme-utils/-/jthawme-utils-1.0.0.tgz#9585c2bbe9c5c8fe31ee401588ff1ff7e30298ae"
-  integrity sha512-ed9ouvoHRw7ErWnyIclssgWT84G/+SDURAP7U836R1A4VqwXImFRNw0JbWzxdmE8Z966U1KhTnxPBB7tBku2ng==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jthawme-utils/-/jthawme-utils-1.0.1.tgz#1132ccfbae241b6591ac511a9ab1c2ddcbc3b6b1"
+  integrity sha512-Kl/t8v8UtlcWezSD1KzXaV2PVGB6n62ydtB8gwQ++6BTAtFBGiInXyq4lM4+siMC8lTYFNXKFSaTx9/PiPwXlA==
   dependencies:
     uuid "^11.1.0"
 
